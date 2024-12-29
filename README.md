@@ -23,12 +23,18 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 ![image](https://github.com/naavaneetha/4-BIT-RIPPLE-COUNTER/assets/154305477/85e1958a-2fc1-49bb-9a9f-d58ccbf3663c)
 
 **Procedure**
+```
 1.Increment count on each positive edge of the clock.
 2.Reset count to zero when it reaches 15.
 3.Generate clock signal (clk).
 4.Instantiate the RippleCounter module.
 5.Conduct functional testing by displaying the count at each clock cycle for 16 cycles.
+```
 **PROGRAM**
+```
+Developed by: Janani S
+Register number: 24901127
+```
 ```
 module RippleCounter(
    input wire clk,  // Clock input
@@ -88,11 +94,6 @@ end
 
 endmodule
 ```
-Program for logic gates and verify its truth table in quartus using Verilog programming.
-
-**Developed by: THIRUKUMARAN G**
-
-**RegisteNumber: 212223050056**
 
 
 **RTL LOGIC FOR 4 Bit Ripple Counter**
@@ -102,4 +103,5 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 ![330489946-a285f70c-c317-4f6e-be38-eef9ecfa250d](https://github.com/RamkumarGunasekaran/4-BIT-RIPPLE-COUNTER/assets/144870820/3e402c9e-f477-44a3-9f01-cd17df84ba77)
 
 **RESULTS**
+
 Thus the program executed succesfully.
